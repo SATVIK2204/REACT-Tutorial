@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Message from './components/5_state'
-import Counter from './components/6_setstate'
+import GreetCustom from './components/7_destructuring_props_state_functional'
 function App() {
   return (
     <div className="App">
-    <Counter/>
+    <GreetCustom name="Mr. Stark" heroname="Iron Man"/>
     </div>
   );
 }
