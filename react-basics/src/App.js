@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
-// import FunctionClick from './components/8_event_handling_functional'
-import ClassClick from './components/8_event_handling_class'
+import EventClick from './components/9_binding_event_handlers'
 function App() {
   return (
     <div className="App">
-    <ClassClick/>
+    <EventClick/>
     </div>
   );
 }
