@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
-import UserGreeting from './components/11_conditional_rendering'
+import NameList from './components/12_list_rendering';
 function App() {
   return (
     <div className="App">
-    <UserGreeting/>
+    <NameList/>
     </div>
   );
 }
