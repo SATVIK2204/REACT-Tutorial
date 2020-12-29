@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import NameList from './components/12_list_rendering';
+import NameList from './components/14_index_as_key';
 function App() {
   return (
     <div className="App">
