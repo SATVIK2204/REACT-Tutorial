@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
-// import EventClick from './components/9_binding_event_handlers'
-import ParentComponent from './components/10_methods_as_props_parent'
+import UserGreeting from './components/11_conditional_rendering'
 function App() {
   return (
     <div className="App">
-    <ParentComponent/>
+    <UserGreeting/>
     </div>
   );
 }
